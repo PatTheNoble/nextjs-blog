@@ -127,7 +127,7 @@ export default () => {
       vy *= friction;
     }
 
-    setInterval(loop, 1000 / 60);
+    setInterval(loop, 1000 / 60); // runs loop 60 times per second
   }, []);
   return (
     <main style={{
